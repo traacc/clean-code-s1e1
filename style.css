@@ -96,7 +96,7 @@ input#addtask__input {
 }
 
 /* Task list */
-.task-list__item {
+.tasks-list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -105,20 +105,20 @@ input#addtask__input {
   justify-content: space-between;
   align-items: center;
 }
-.task-list__item > * {
+.tasks-list__item > * {
   vertical-align: middle;
 }
 
-.task-list__item > input[type="checkbox"] {
+.tasks-list__item > input[type="checkbox"] {
   margin: 0 10px;
 }
-.task-list__item > label {
+.tasks-list__item > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.task-list__item > input[type="text"] {
+.tasks-list__item > input[type="text"] {
   width: 226px;
 }
 button.tasks-list__delete img {
